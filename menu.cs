@@ -39,5 +39,11 @@ namespace ProyectosPP
         {
             Close();
         }
+
+        private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PROYECTOSPOO.calculadora x = new PROYECTOSPOO.calculadora();
+            x.Show();
+        }
     }
 }

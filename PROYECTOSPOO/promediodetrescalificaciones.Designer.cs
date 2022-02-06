@@ -33,11 +33,11 @@ namespace ProyectosPP.PROYECTOSPOO
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtcalificacion1 = new System.Windows.Forms.TextBox();
+            this.txtcalificacion2 = new System.Windows.Forms.TextBox();
+            this.txtcalificacion3 = new System.Windows.Forms.TextBox();
+            this.txtresultado = new System.Windows.Forms.TextBox();
+            this.btncalcular = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,54 +76,57 @@ namespace ProyectosPP.PROYECTOSPOO
             this.label4.TabIndex = 3;
             this.label4.Text = "Promedio";
             // 
-            // textBox1
+            // txtcalificacion1
             // 
-            this.textBox1.Location = new System.Drawing.Point(372, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 4;
+            this.txtcalificacion1.Location = new System.Drawing.Point(372, 64);
+            this.txtcalificacion1.Name = "txtcalificacion1";
+            this.txtcalificacion1.Size = new System.Drawing.Size(100, 26);
+            this.txtcalificacion1.TabIndex = 4;
+            this.txtcalificacion1.TextChanged += new System.EventHandler(this.txtcalificacion1_TextChanged);
+            this.txtcalificacion1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcalificacion1_KeyPress);
             // 
-            // textBox2
+            // txtcalificacion2
             // 
-            this.textBox2.Location = new System.Drawing.Point(372, 107);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 26);
-            this.textBox2.TabIndex = 5;
+            this.txtcalificacion2.Location = new System.Drawing.Point(372, 107);
+            this.txtcalificacion2.Name = "txtcalificacion2";
+            this.txtcalificacion2.Size = new System.Drawing.Size(100, 26);
+            this.txtcalificacion2.TabIndex = 5;
             // 
-            // textBox3
+            // txtcalificacion3
             // 
-            this.textBox3.Location = new System.Drawing.Point(372, 154);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 26);
-            this.textBox3.TabIndex = 6;
+            this.txtcalificacion3.Location = new System.Drawing.Point(372, 154);
+            this.txtcalificacion3.Name = "txtcalificacion3";
+            this.txtcalificacion3.Size = new System.Drawing.Size(100, 26);
+            this.txtcalificacion3.TabIndex = 6;
             // 
-            // textBox4
+            // txtresultado
             // 
-            this.textBox4.Location = new System.Drawing.Point(372, 217);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 26);
-            this.textBox4.TabIndex = 7;
+            this.txtresultado.Location = new System.Drawing.Point(372, 217);
+            this.txtresultado.Name = "txtresultado";
+            this.txtresultado.ReadOnly = true;
+            this.txtresultado.Size = new System.Drawing.Size(100, 26);
+            this.txtresultado.TabIndex = 7;
             // 
-            // button1
+            // btncalcular
             // 
-            this.button1.Location = new System.Drawing.Point(372, 266);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 38);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Calcular";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btncalcular.Location = new System.Drawing.Point(372, 266);
+            this.btncalcular.Name = "btncalcular";
+            this.btncalcular.Size = new System.Drawing.Size(100, 38);
+            this.btncalcular.TabIndex = 8;
+            this.btncalcular.Text = "Calcular";
+            this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.Click += new System.EventHandler(this.button1_Click);
             // 
             // promediodetrescalificaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btncalcular);
+            this.Controls.Add(this.txtresultado);
+            this.Controls.Add(this.txtcalificacion3);
+            this.Controls.Add(this.txtcalificacion2);
+            this.Controls.Add(this.txtcalificacion1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -141,10 +144,10 @@ namespace ProyectosPP.PROYECTOSPOO
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtcalificacion1;
+        private System.Windows.Forms.TextBox txtcalificacion2;
+        private System.Windows.Forms.TextBox txtcalificacion3;
+        private System.Windows.Forms.TextBox txtresultado;
+        private System.Windows.Forms.Button btncalcular;
     }
 }
