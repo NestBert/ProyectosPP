@@ -25,13 +25,19 @@ namespace ProyectosPP
 
         private void promedioDeTresCalificacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Coming soon
+            PROYECTOSPOO.promediodetrescalificaciones promedio = new PROYECTOSPOO.promediodetrescalificaciones();
+            promedio.Show();
         }
 
         private void promedioDeCincoCalificacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             PROYECTOSPOO.Promediodecincocalificaciones p5c = new PROYECTOSPOO.Promediodecincocalificaciones();
             p5c.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

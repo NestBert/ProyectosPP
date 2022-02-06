@@ -16,5 +16,10 @@ namespace ProyectosPP.PROYECTOSPOO
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox4.Text = ((double.Parse(textBox1.Text) + double.Parse(textBox2.Text) + double.Parse(textBox3.Text)) / 3).ToString();
+        }
     }
 }
