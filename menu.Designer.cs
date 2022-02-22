@@ -34,8 +34,9 @@ namespace ProyectosPP
             this.sumaDeDosNúmerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.promedioDeTresCalificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.promedioDeCincoCalificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.arreglosBidimensionalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +59,8 @@ namespace ProyectosPP
             this.sumaDeDosNúmerosToolStripMenuItem,
             this.promedioDeTresCalificacionesToolStripMenuItem,
             this.promedioDeCincoCalificacionesToolStripMenuItem,
-            this.calculadoraToolStripMenuItem});
+            this.calculadoraToolStripMenuItem,
+            this.arreglosBidimensionalesToolStripMenuItem});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(114, 29);
             this.programasToolStripMenuItem.Text = "Programas";
@@ -84,6 +86,13 @@ namespace ProyectosPP
             this.promedioDeCincoCalificacionesToolStripMenuItem.Text = "Promedio de cinco calificaciones";
             this.promedioDeCincoCalificacionesToolStripMenuItem.Click += new System.EventHandler(this.promedioDeCincoCalificacionesToolStripMenuItem_Click);
             // 
+            // calculadoraToolStripMenuItem
+            // 
+            this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(370, 34);
+            this.calculadoraToolStripMenuItem.Text = "Calculadora";
+            this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
+            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
@@ -91,12 +100,12 @@ namespace ProyectosPP
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // calculadoraToolStripMenuItem
+            // arreglosBidimensionalesToolStripMenuItem
             // 
-            this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(370, 34);
-            this.calculadoraToolStripMenuItem.Text = "Calculadora";
-            this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
+            this.arreglosBidimensionalesToolStripMenuItem.Name = "arreglosBidimensionalesToolStripMenuItem";
+            this.arreglosBidimensionalesToolStripMenuItem.Size = new System.Drawing.Size(370, 34);
+            this.arreglosBidimensionalesToolStripMenuItem.Text = "Arreglos Bidimensionales";
+            this.arreglosBidimensionalesToolStripMenuItem.Click += new System.EventHandler(this.arreglosBidimensionalesToolStripMenuItem_Click);
             // 
             // menu
             // 
@@ -125,6 +134,7 @@ namespace ProyectosPP
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem promedioDeCincoCalificacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem arreglosBidimensionalesToolStripMenuItem;
     }
 }
 
