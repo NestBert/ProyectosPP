@@ -35,8 +35,9 @@ namespace ProyectosPP
             this.promedioDeTresCalificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.promedioDeCincoCalificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arreglosBidimensionalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.arregloMultidimensionalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +61,8 @@ namespace ProyectosPP
             this.promedioDeTresCalificacionesToolStripMenuItem,
             this.promedioDeCincoCalificacionesToolStripMenuItem,
             this.calculadoraToolStripMenuItem,
-            this.arreglosBidimensionalesToolStripMenuItem});
+            this.arreglosBidimensionalesToolStripMenuItem,
+            this.arregloMultidimensionalToolStripMenuItem});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(114, 29);
             this.programasToolStripMenuItem.Text = "Programas";
@@ -93,6 +95,13 @@ namespace ProyectosPP
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
             // 
+            // arreglosBidimensionalesToolStripMenuItem
+            // 
+            this.arreglosBidimensionalesToolStripMenuItem.Name = "arreglosBidimensionalesToolStripMenuItem";
+            this.arreglosBidimensionalesToolStripMenuItem.Size = new System.Drawing.Size(370, 34);
+            this.arreglosBidimensionalesToolStripMenuItem.Text = "Arreglos Bidimensionales";
+            this.arreglosBidimensionalesToolStripMenuItem.Click += new System.EventHandler(this.arreglosBidimensionalesToolStripMenuItem_Click);
+            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
@@ -100,12 +109,12 @@ namespace ProyectosPP
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
-            // arreglosBidimensionalesToolStripMenuItem
+            // arregloMultidimensionalToolStripMenuItem
             // 
-            this.arreglosBidimensionalesToolStripMenuItem.Name = "arreglosBidimensionalesToolStripMenuItem";
-            this.arreglosBidimensionalesToolStripMenuItem.Size = new System.Drawing.Size(370, 34);
-            this.arreglosBidimensionalesToolStripMenuItem.Text = "Arreglos Bidimensionales";
-            this.arreglosBidimensionalesToolStripMenuItem.Click += new System.EventHandler(this.arreglosBidimensionalesToolStripMenuItem_Click);
+            this.arregloMultidimensionalToolStripMenuItem.Name = "arregloMultidimensionalToolStripMenuItem";
+            this.arregloMultidimensionalToolStripMenuItem.Size = new System.Drawing.Size(370, 34);
+            this.arregloMultidimensionalToolStripMenuItem.Text = "Arreglo multidimensional";
+            this.arregloMultidimensionalToolStripMenuItem.Click += new System.EventHandler(this.arregloMultidimensionalToolStripMenuItem_Click);
             // 
             // menu
             // 
@@ -135,6 +144,7 @@ namespace ProyectosPP
         private System.Windows.Forms.ToolStripMenuItem promedioDeCincoCalificacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arreglosBidimensionalesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem arregloMultidimensionalToolStripMenuItem;
     }
 }
 

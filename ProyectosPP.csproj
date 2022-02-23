@@ -76,6 +76,12 @@
     <Compile Include="PROYECTOSPOO\calculosaritmeticos.designer.cs">
       <DependentUpon>calculosaritmeticos.cs</DependentUpon>
     </Compile>
+    <Compile Include="PROYECTOSPOO\Frm_multidimensional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROYECTOSPOO\Frm_multidimensional.Designer.cs">
+      <DependentUpon>Frm_multidimensional.cs</DependentUpon>
+    </Compile>
     <Compile Include="PROYECTOSPOO\Promediodecincocalificaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PROYECTOSPOO\calculosaritmeticos.resx">
       <DependentUpon>calculosaritmeticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PROYECTOSPOO\Frm_multidimensional.resx">
+      <DependentUpon>Frm_multidimensional.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PROYECTOSPOO\Promediodecincocalificaciones.resx">
       <DependentUpon>Promediodecincocalificaciones.cs</DependentUpon>
